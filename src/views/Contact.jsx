@@ -58,9 +58,9 @@ const Contact = () => {
                   <p>Agrega tu primer contacto</p>
                 </div>
               ) : (
-                <div className="row">
+                <div className="row g-3">
                   {contacts.map((contact) => (
-                    <div key={contact.id} className="col-12 col-md-6 col-lg-4 mb-3">
+                    <div key={contact.id} className="col-12 col-md-6 col-lg-6 col-xl-4">
                       <ContactCard contact={contact} />
                     </div>
                   ))}

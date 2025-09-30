@@ -4,6 +4,7 @@ import { ContactProvider, useContact } from './context/ContactContext';
 import Contact from './views/Contact';
 import AddContact from './views/AddContact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Navbar = () => {
   const { agendaSlug } = useContact();
